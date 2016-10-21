@@ -1,0 +1,192 @@
+2016-10-04 11:49:05.021 28259 WARNING gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-(module - ) - does not implementnfp_module_init()
+2016-10-04 11:49:05.021 28259 INFO oslo_service.service [-] Starting 1 workers
+2016-10-04 11:49:05.024 28259 INFO gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-Forked a new child: 28268Parent Pipe: <read-write Connection, handle 12>, Child Pipe: <read-write Connection, handle 13>
+2016-10-04 11:49:07.689 28259 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=6e8716a1-d0bb-4e18-b9b3-d2b1769005f7:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:49:07.690 28259 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=116fed5e-7811-46a1-a6d3-d21a0fff15db:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:49:07.691 28259 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=b61c8f2a-07b7-4fae-9dd7-d5b464707a7f:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:49:07.699 28259 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=6e8716a1-d0bb-4e18-b9b3-d2b1769005f7:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:49:07.700 28259 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=b61c8f2a-07b7-4fae-9dd7-d5b464707a7f:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:49:07.702 28259 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Sequenced event - uuid=e7b98ffe-3f80-4696-959d-106470613750:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 11:49:07.906 28259 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=116fed5e-7811-46a1-a6d3-d21a0fff15db:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:49:07.907 28259 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=e7b98ffe-3f80-4696-959d-106470613750:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 11:50:36.536 28259 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 11:50:36.536 28268 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 11:52:31.043 28320 WARNING gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-(module - ) - does not implementnfp_module_init()
+2016-10-04 11:52:31.044 28320 INFO oslo_service.service [-] Starting 1 workers
+2016-10-04 11:52:31.046 28320 INFO gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-Forked a new child: 28327Parent Pipe: <read-write Connection, handle 12>, Child Pipe: <read-write Connection, handle 13>
+2016-10-04 11:52:37.119 28320 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=bfdafc1d-a499-4392-96d0-3e3edb6365bb:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:52:37.120 28320 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=db2593ed-b4c2-45f6-ac62-fa4ebc3f0018:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:52:37.121 28320 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=dc6e7892-31a5-4a2e-b249-33ad655dcfb5:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:52:37.129 28320 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=bfdafc1d-a499-4392-96d0-3e3edb6365bb:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:52:37.130 28320 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=dc6e7892-31a5-4a2e-b249-33ad655dcfb5:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:52:37.133 28320 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Sequenced event - uuid=e32fcf5c-eebd-4a3c-b95b-e5f127ed1b38:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 11:52:37.335 28320 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=db2593ed-b4c2-45f6-ac62-fa4ebc3f0018:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:52:37.336 28320 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=e32fcf5c-eebd-4a3c-b95b-e5f127ed1b38:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 11:52:55.367 28320 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 11:52:55.367 28327 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 11:53:19.042 28339 WARNING gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-(module - ) - does not implementnfp_module_init()
+2016-10-04 11:53:19.043 28339 INFO oslo_service.service [-] Starting 1 workers
+2016-10-04 11:53:19.046 28339 INFO gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-Forked a new child: 28346Parent Pipe: <read-write Connection, handle 12>, Child Pipe: <read-write Connection, handle 13>
+2016-10-04 11:53:21.799 28339 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=87706947-87e1-471f-adfb-a4cc44eb0390:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:53:21.800 28339 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=c11afb24-c710-403b-9874-63ec843aa8c6:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:53:21.801 28339 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=3e508a93-5dab-4732-9459-cb41e863e382:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:53:21.811 28339 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=87706947-87e1-471f-adfb-a4cc44eb0390:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:53:21.811 28339 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=3e508a93-5dab-4732-9459-cb41e863e382:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:53:21.813 28339 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Sequenced event - uuid=8624791f-9479-4c66-a528-6671c12260a0:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 11:53:22.016 28339 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=c11afb24-c710-403b-9874-63ec843aa8c6:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:53:22.016 28339 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=8624791f-9479-4c66-a528-6671c12260a0:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 11:53:37.983 28339 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 11:53:37.983 28346 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 11:54:15.179 28358 WARNING gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-(module - ) - does not implementnfp_module_init()
+2016-10-04 11:54:15.179 28358 INFO oslo_service.service [-] Starting 1 workers
+2016-10-04 11:54:15.182 28358 INFO gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-Forked a new child: 28367Parent Pipe: <read-write Connection, handle 12>, Child Pipe: <read-write Connection, handle 13>
+2016-10-04 11:54:18.095 28358 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=1954e5aa-beb1-4bdb-b720-f47818dfeca0:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:54:18.096 28358 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=6e69383c-b0f0-4e55-81ca-0682222f87a9:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:54:18.097 28358 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=09f00acd-728f-4f2b-a39d-092724c48105:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:54:18.105 28358 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=1954e5aa-beb1-4bdb-b720-f47818dfeca0:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:54:18.105 28358 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=09f00acd-728f-4f2b-a39d-092724c48105:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:54:18.107 28358 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Sequenced event - uuid=a79a563b-8e83-4144-be3b-abaac47c65ff:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 11:54:18.309 28358 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=6e69383c-b0f0-4e55-81ca-0682222f87a9:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:54:18.310 28358 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=a79a563b-8e83-4144-be3b-abaac47c65ff:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 11:54:35.590 28358 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 11:54:35.590 28367 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 11:55:53.353 28391 WARNING gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-(module - ) - does not implementnfp_module_init()
+2016-10-04 11:55:53.354 28391 INFO oslo_service.service [-] Starting 1 workers
+2016-10-04 11:55:53.357 28391 INFO gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-Forked a new child: 28398Parent Pipe: <read-write Connection, handle 12>, Child Pipe: <read-write Connection, handle 13>
+2016-10-04 11:55:56.182 28391 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=7da6c3f7-3a12-447e-9ba4-453bdf7e6303:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:55:56.183 28391 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=d7b9ec6f-3462-4132-b8d2-cd91d85c3a0c:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:55:56.184 28391 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=6a148fc7-006f-4844-89ec-1fa0e92a841c:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:55:56.192 28391 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=7da6c3f7-3a12-447e-9ba4-453bdf7e6303:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:55:56.193 28391 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=6a148fc7-006f-4844-89ec-1fa0e92a841c:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:55:56.195 28391 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Sequenced event - uuid=60331d03-3bcb-4262-9b0c-8bc84664ecec:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 11:55:56.397 28391 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=d7b9ec6f-3462-4132-b8d2-cd91d85c3a0c:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:55:56.398 28391 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=60331d03-3bcb-4262-9b0c-8bc84664ecec:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 11:56:09.614 28391 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 11:56:09.614 28398 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 11:57:34.155 28440 WARNING gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-(module - ) - does not implementnfp_module_init()
+2016-10-04 11:57:34.156 28440 INFO oslo_service.service [-] Starting 1 workers
+2016-10-04 11:57:34.158 28440 INFO gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-Forked a new child: 28447Parent Pipe: <read-write Connection, handle 12>, Child Pipe: <read-write Connection, handle 13>
+2016-10-04 11:57:37.198 28440 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=f2358a44-eab0-429f-8143-497829ff8b9d:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:57:37.199 28440 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=3f19980a-1d31-4884-b192-c3b0516ccab6:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:57:37.200 28440 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=810b9891-b5f6-43e6-bf11-f30c8640648b:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:57:37.210 28440 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=f2358a44-eab0-429f-8143-497829ff8b9d:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:57:37.211 28440 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=810b9891-b5f6-43e6-bf11-f30c8640648b:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:57:37.214 28440 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Sequenced event - uuid=c44bb190-48fd-4434-9d21-afed4f3fd45a:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 11:57:37.418 28440 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=3f19980a-1d31-4884-b192-c3b0516ccab6:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:57:37.419 28440 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=c44bb190-48fd-4434-9d21-afed4f3fd45a:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 11:57:58.061 28440 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 11:57:58.061 28447 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 11:59:02.603 28467 WARNING gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-(module - ) - does not implementnfp_module_init()
+2016-10-04 11:59:02.603 28467 INFO oslo_service.service [-] Starting 1 workers
+2016-10-04 11:59:02.606 28467 INFO gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-Forked a new child: 28474Parent Pipe: <read-write Connection, handle 12>, Child Pipe: <read-write Connection, handle 13>
+2016-10-04 11:59:05.549 28467 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=3b76753c-75e8-48df-8038-6e6a06149981:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:59:05.550 28467 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=738237c6-e7bf-4e6f-a9a7-3fc163d2db6d:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:59:05.551 28467 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=f280436d-b373-4977-8027-0e03691bead4:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:59:05.560 28467 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=3b76753c-75e8-48df-8038-6e6a06149981:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:59:05.560 28467 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=f280436d-b373-4977-8027-0e03691bead4:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:59:05.564 28467 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Sequenced event - uuid=3d06363b-a36f-424b-ac3d-6232e5f3e527:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 11:59:05.769 28467 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=738237c6-e7bf-4e6f-a9a7-3fc163d2db6d:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 11:59:05.769 28467 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=3d06363b-a36f-424b-ac3d-6232e5f3e527:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 12:35:39.463 28467 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 12:35:39.463 28474 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 12:35:44.074 28972 WARNING gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-(module - ) - does not implementnfp_module_init()
+2016-10-04 12:35:44.075 28972 INFO oslo_service.service [-] Starting 1 workers
+2016-10-04 12:35:44.078 28972 INFO gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-Forked a new child: 28979Parent Pipe: <read-write Connection, handle 12>, Child Pipe: <read-write Connection, handle 13>
+2016-10-04 12:35:46.839 28972 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=99b75bc5-4efc-407c-a076-f4b0c567b5b6:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 12:35:46.840 28972 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=9c7f59f5-ea1c-491a-9a25-5b8293f16c63:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 12:35:46.841 28972 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=21846a0d-7e65-4b32-8643-2919436fa51d:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 12:35:46.850 28972 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=99b75bc5-4efc-407c-a076-f4b0c567b5b6:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 12:35:46.850 28972 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=21846a0d-7e65-4b32-8643-2919436fa51d:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 12:35:46.854 28972 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Sequenced event - uuid=05cc3d08-a660-4afc-a62c-8d11b98dbefc:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 12:35:47.059 28972 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=9c7f59f5-ea1c-491a-9a25-5b8293f16c63:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 12:35:47.059 28972 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=05cc3d08-a660-4afc-a62c-8d11b98dbefc:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 14:05:21.274 28972 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 14:05:21.274 28979 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 14:05:26.672 30196 WARNING gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-(module - ) - does not implementnfp_module_init()
+2016-10-04 14:05:26.673 30196 INFO oslo_service.service [-] Starting 1 workers
+2016-10-04 14:05:26.675 30196 INFO gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-Forked a new child: 30203Parent Pipe: <read-write Connection, handle 12>, Child Pipe: <read-write Connection, handle 13>
+2016-10-04 14:05:29.650 30196 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=ac75fb99-c4ff-4f3d-8691-1a42921e2e53:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 14:05:29.651 30196 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=b8b22ed1-40a1-4f75-aa61-788bc82764c7:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 14:05:29.652 30196 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=4c3383b0-15f1-45b9-8340-df70b897a51f:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 14:05:29.653 30196 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=84c23c65-7301-4e7d-b26b-d38d82f23c1f:JERRY_WATCHING_TV,id=JERRY_WATCHING_TV,type=schedule_event,flag=new_event
+2016-10-04 14:05:29.660 30196 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=ac75fb99-c4ff-4f3d-8691-1a42921e2e53:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 14:05:29.661 30196 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=4c3383b0-15f1-45b9-8340-df70b897a51f:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 14:05:29.663 30196 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Sequenced event - uuid=b5c54f23-1b84-4ed8-a799-854b2a8cdb1f:TOM_WATCHING_TV,id=TOM_WATCHING_TV,type=schedule_event,flag=new_event
+2016-10-04 14:05:29.664 30196 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Sequenced event - uuid=0ea1d600-d376-4529-ad7f-9b6041b17b98:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 14:05:29.866 30196 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=b8b22ed1-40a1-4f75-aa61-788bc82764c7:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 14:05:29.867 30196 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=84c23c65-7301-4e7d-b26b-d38d82f23c1f:JERRY_WATCHING_TV,id=JERRY_WATCHING_TV,type=schedule_event,flag=new_event
+2016-10-04 14:05:30.078 30196 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=b5c54f23-1b84-4ed8-a799-854b2a8cdb1f:TOM_WATCHING_TV,id=TOM_WATCHING_TV,type=schedule_event,flag=new_event
+2016-10-04 14:05:30.079 30196 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=0ea1d600-d376-4529-ad7f-9b6041b17b98:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 14:15:15.590 30196 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 14:15:15.590 30203 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 14:26:18.045 30473 WARNING gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-(module - ) - does not implementnfp_module_init()
+2016-10-04 14:26:18.046 30473 INFO oslo_service.service [-] Starting 1 workers
+2016-10-04 14:26:18.049 30473 INFO gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-Forked a new child: 30480Parent Pipe: <read-write Connection, handle 12>, Child Pipe: <read-write Connection, handle 13>
+2016-10-04 14:29:34.920 30473 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=8b774017-d3dc-4c7b-8ae4-8fe22856d0e0:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 14:29:34.921 30473 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=a5c3913f-5829-45a9-8628-a1fcdfc68544:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 14:29:34.922 30473 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=66c18c1b-49f9-416e-8307-c6807a10d709:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 14:29:34.923 30473 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=16bcb25a-505f-4e0a-98a6-414956861786:JERRY_WATCHING_TV,id=JERRY_WATCHING_TV,type=schedule_event,flag=new_event
+2016-10-04 14:29:34.931 30473 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=8b774017-d3dc-4c7b-8ae4-8fe22856d0e0:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 14:29:34.932 30473 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=66c18c1b-49f9-416e-8307-c6807a10d709:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 14:29:34.935 30473 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Sequenced event - uuid=1225272a-461b-46b2-a417-6ab9e2289827:TOM_WATCHING_TV,id=TOM_WATCHING_TV,type=schedule_event,flag=new_event
+2016-10-04 14:29:34.936 30473 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Sequenced event - uuid=d2b5685f-2498-460b-9f11-206e9c629eac:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 14:29:35.137 30473 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=a5c3913f-5829-45a9-8628-a1fcdfc68544:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 14:29:35.138 30473 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=16bcb25a-505f-4e0a-98a6-414956861786:JERRY_WATCHING_TV,id=JERRY_WATCHING_TV,type=schedule_event,flag=new_event
+2016-10-04 14:29:35.350 30473 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=1225272a-461b-46b2-a417-6ab9e2289827:TOM_WATCHING_TV,id=TOM_WATCHING_TV,type=schedule_event,flag=new_event
+2016-10-04 14:29:35.351 30473 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=d2b5685f-2498-460b-9f11-206e9c629eac:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 14:29:47.672 30473 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 14:29:47.672 30480 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 14:29:53.228 30527 WARNING gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-(module - ) - does not implementnfp_module_init()
+2016-10-04 14:29:53.229 30527 INFO oslo_service.service [-] Starting 1 workers
+2016-10-04 14:29:53.231 30527 INFO gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-Forked a new child: 30534Parent Pipe: <read-write Connection, handle 12>, Child Pipe: <read-write Connection, handle 13>
+2016-10-04 14:41:31.211 30527 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=56cf4157-d3e1-480c-8dac-b79f5dd1c7f0:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 14:41:31.212 30527 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=434ecad6-9582-49bb-b101-3dc3940012ab:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 14:41:31.213 30527 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=2371f747-879f-4786-9344-9a2632b120f1:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 14:41:31.214 30527 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=aa9dfdb8-a78e-41bf-a2e2-a052086216e3:JERRY_WATCHING_TV,id=JERRY_WATCHING_TV,type=schedule_event,flag=new_event
+2016-10-04 14:41:31.222 30527 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=56cf4157-d3e1-480c-8dac-b79f5dd1c7f0:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 14:41:31.223 30527 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=2371f747-879f-4786-9344-9a2632b120f1:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 14:41:31.225 30527 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Sequenced event - uuid=38886f6c-a48d-4791-8f56-27f0279a21cc:TOM_WATCHING_TV,id=TOM_WATCHING_TV,type=schedule_event,flag=new_event
+2016-10-04 14:41:31.226 30527 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Sequenced event - uuid=d4ea004e-363f-46b8-8fd7-629f53b4d79b:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 14:41:31.427 30527 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=434ecad6-9582-49bb-b101-3dc3940012ab:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 14:41:31.428 30527 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=aa9dfdb8-a78e-41bf-a2e2-a052086216e3:JERRY_WATCHING_TV,id=JERRY_WATCHING_TV,type=schedule_event,flag=new_event
+2016-10-04 14:41:31.640 30527 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=38886f6c-a48d-4791-8f56-27f0279a21cc:TOM_WATCHING_TV,id=TOM_WATCHING_TV,type=schedule_event,flag=new_event
+2016-10-04 14:41:31.641 30527 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=d4ea004e-363f-46b8-8fd7-629f53b4d79b:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 14:41:33.020 30527 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 14:41:33.020 30534 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 14:43:16.568 30716 WARNING gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-(module - ) - does not implementnfp_module_init()
+2016-10-04 14:43:16.569 30716 INFO oslo_service.service [-] Starting 1 workers
+2016-10-04 14:43:16.572 30716 INFO gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-Forked a new child: 30723Parent Pipe: <read-write Connection, handle 12>, Child Pipe: <read-write Connection, handle 13>
+2016-10-04 15:04:39.698 30716 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 15:04:39.698 30723 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 15:05:34.888 31042 WARNING gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-(module - ) - does not implementnfp_module_init()
+2016-10-04 15:05:34.888 31042 INFO oslo_service.service [-] Starting 1 workers
+2016-10-04 15:05:34.890 31042 INFO gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-Forked a new child: 31049Parent Pipe: <read-write Connection, handle 12>, Child Pipe: <read-write Connection, handle 13>
+2016-10-04 16:45:37.745 31042 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=f036276f-dc3e-43c5-87ff-ffc049793f61:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 16:45:37.746 31042 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=ca13ad9b-e23d-466a-9db5-267d09cd2f77:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 16:45:37.747 31042 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=158d9ae9-272a-46a7-91cf-4da5d0c111e5:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 16:45:37.747 31042 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=a446be94-3b36-47ca-9afb-f792afe7178e:JERRY_WATCHING_TV,id=JERRY_WATCHING_TV,type=schedule_event,flag=new_event
+2016-10-04 16:45:37.755 31042 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=f036276f-dc3e-43c5-87ff-ffc049793f61:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 16:45:37.756 31042 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=158d9ae9-272a-46a7-91cf-4da5d0c111e5:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 16:45:37.759 31042 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Sequenced event - uuid=ea2c9af0-e102-4ae1-a706-3eefb63091a8:TOM_WATCHING_TV,id=TOM_WATCHING_TV,type=schedule_event,flag=new_event
+2016-10-04 16:45:37.760 31042 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Sequenced event - uuid=a0ac8f09-2ead-481a-ba34-1c504999c189:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 16:45:37.961 31042 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=ca13ad9b-e23d-466a-9db5-267d09cd2f77:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 16:45:37.962 31042 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=a446be94-3b36-47ca-9afb-f792afe7178e:JERRY_WATCHING_TV,id=JERRY_WATCHING_TV,type=schedule_event,flag=new_event
+2016-10-04 16:45:38.174 31042 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=ea2c9af0-e102-4ae1-a706-3eefb63091a8:TOM_WATCHING_TV,id=TOM_WATCHING_TV,type=schedule_event,flag=new_event
+2016-10-04 16:45:38.175 31042 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=a0ac8f09-2ead-481a-ba34-1c504999c189:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 16:45:40.545 31042 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 16:45:40.545 31049 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 16:46:32.053 32644 WARNING gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-(module - ) - does not implementnfp_module_init()
+2016-10-04 16:46:32.053 32644 INFO oslo_service.service [-] Starting 1 workers
+2016-10-04 16:46:32.055 32644 INFO gbpservice.nfp.core_ahmed.controller [-] [LogMetaID:]-Forked a new child: 32651Parent Pipe: <read-write Connection, handle 12>, Child Pipe: <read-write Connection, handle 13>
+2016-10-04 16:46:34.062 32644 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=eaefb994-eb53-486f-9a43-3312f7f26b08:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 16:46:34.063 32644 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=2ef6db70-9d60-4525-9812-109d2aa9518a:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 16:46:34.064 32644 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=36045280-f9b5-44ad-a8a8-b2ac0c9848c2:TOM_WATCHING_TV,id=TOM_WATCHING_TV,type=schedule_event,flag=new_event
+2016-10-04 16:46:34.064 32644 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=38c2b4d6-ff3a-4028-93d9-0aacf9c7c6ab:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 16:46:34.065 32644 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=a61e3b49-8214-4465-a960-e70620d05051:JERRY_EATING_FOOD,id=JERRY_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 16:46:34.065 32644 ERROR gbpservice.nfp.core_ahmed.sequencer [-] [LogMetaID:]-Sequenced event - uuid=ba892f74-6187-4373-9938-d0f934581551:JERRY_WATCHING_TV,id=JERRY_WATCHING_TV,type=schedule_event,flag=new_event
+2016-10-04 16:46:34.073 32644 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=eaefb994-eb53-486f-9a43-3312f7f26b08:TOM_PREPARE_FOOD,id=TOM_PREPARE_FOOD,type=schedule_event,flag=new_event
+2016-10-04 16:46:34.074 32644 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=38c2b4d6-ff3a-4028-93d9-0aacf9c7c6ab:JERRY_FOOD_DELIVERED,id=JERRY_FOOD_DELIVERED,type=schedule_event,flag=new_event
+2016-10-04 16:46:34.286 32644 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=2ef6db70-9d60-4525-9812-109d2aa9518a:TOM_EATING_FOOD,id=TOM_EATING_FOOD,type=schedule_event,flag=new_event
+2016-10-04 16:46:34.498 32644 ERROR gbpservice.nfp.core_ahmed.sequencer [-] Desequence event - uuid=36045280-f9b5-44ad-a8a8-b2ac0c9848c2:TOM_WATCHING_TV,id=TOM_WATCHING_TV,type=schedule_event,flag=new_event
+2016-10-04 16:49:28.111 32644 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
+2016-10-04 16:49:28.111 32651 INFO oslo_service.service [-] Caught SIGINT signal, instantaneous exiting
