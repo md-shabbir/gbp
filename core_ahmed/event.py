@@ -92,7 +92,7 @@ class EventDesc(object):
         # ID of graph of which this event is part of
         self.graph = None
 
-        self.stop_poll_event = kwargs.get('stop_poll_event', False)
+        self.poll_event_stop = kwargs.get('poll_event_stop', False)
 
 
     def from_desc(self, desc):
@@ -139,6 +139,8 @@ class Event(object):
         self.zipped = False
         # Log metadata context
         self.context = kwargs.get('context', {})
+        # identifies whether the event is for stopping poll event
+        self.poll_event_stop = kwargs.get('poll_event_stop', False)
         # Prepare the base descriptor
         desc = kwargs.get('desc_dict')
         if desc:

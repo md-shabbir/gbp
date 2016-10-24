@@ -48,7 +48,7 @@ def IS_EVENT_GRAPH(event):
 
 def IS_POLL_EVENT_STOP(event):
     return event.desc.type == nfp_event.SCHEDULE_EVENT and (
-        event.desc.stop_poll_event==True)
+        event.poll_event_stop)
 
 
 """Manages the forked childs.

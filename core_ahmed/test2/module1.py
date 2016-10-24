@@ -35,16 +35,14 @@ def nfp_module_post_init(controller, config):
     mypollevent = controller.new_event(id='MY_POLL_EVENT', data={})
     controller.poll_event(mypollevent, max_times=8)
     time.sleep(8)
-    stop_event = controller.new_event(id='MY_POLL_EVENT_STOP', data={'key':mypollevent.desc.uuid})
-    stop_event.desc.stop_poll_event = True
-    print 'sent stop poll event: ', mypollevent.desc.uuid
+    stop_event = controller.new_event(id='MY_POLL_EVENT_STOP', poll_event_stop=True, data={'key':mypollevent.desc.uuid})
+    print 'sent poll event stop: ', mypollevent.desc.uuid
     controller.post_event(stop_event)
 
     mypollevent = controller.new_event(id='MY_POLL_EVENT', data={})
     controller.poll_event(mypollevent, max_times=8)
     time.sleep(8)
-    stop_event = controller.new_event(id='MY_POLL_EVENT_STOP', data={'key':mypollevent.desc.uuid})
-    stop_event.desc.stop_poll_event = True
-    print 'sent stop poll event: ', mypollevent.desc.uuid
+    stop_event = controller.new_event(id='MY_POLL_EVENT_STOP', poll_event_stop=True, data={'key':mypollevent.desc.uuid})
+    print 'sent poll event stop: ', mypollevent.desc.uuid
     controller.post_event(stop_event)
  
